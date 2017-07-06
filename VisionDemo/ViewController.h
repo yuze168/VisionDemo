@@ -1,15 +1,16 @@
+////
+////  ViewController.h
+////  VisionDemo
+////
+////  Created by 高永祥 on 2017/6/27.
+////  Copyright © 2017年 高永祥. All rights reserved.
+////
 //
-//  ViewController.h
-//  VisionDemo
+//#import <UIKit/UIKit.h>
 //
-//  Created by 高永祥 on 2017/6/27.
-//  Copyright © 2017年 高永祥. All rights reserved.
+//@interface ViewController : UIViewController
 //
-
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
-@end
+//
+//@end
+//
 

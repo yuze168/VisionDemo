@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VDRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    VDRootViewController *vDVC = [VDRootViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vDVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

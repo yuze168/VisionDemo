@@ -1,0 +1,14 @@
+//
+//  VDTextDetectionViewController.h
+//  VisionDemo
+//
+//  Created by 高永祥 on 2017/7/2.
+//  Copyright © 2017年 高永祥. All rights reserved.
+//
+
+#import "VDViewController.h"
+
+// 文字检测
+@interface VDTextDetectionViewController : VDViewController
+
+@end
